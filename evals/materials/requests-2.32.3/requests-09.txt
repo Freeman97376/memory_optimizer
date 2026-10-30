@@ -1,0 +1,5 @@
+Repository: psf/requests
+Source: HISTORY.md at 0e322af87745eff34caffe4df68456ebc20d9068
+Release: 2.28.2 (2023-01-12)
+
+- Requests now supports charset\_normalizer 3.x. (#6261)

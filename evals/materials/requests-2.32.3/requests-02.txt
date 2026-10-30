@@ -1,0 +1,6 @@
+Repository: psf/requests
+Source: HISTORY.md at 0e322af87745eff34caffe4df68456ebc20d9068
+Release: 2.32.3 (2024-05-29)
+
+- Fixed issue where Requests started failing to run on Python versions compiled
+  without the `ssl` module. (#6724)

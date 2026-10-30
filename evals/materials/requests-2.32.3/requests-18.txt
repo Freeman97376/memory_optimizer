@@ -1,0 +1,6 @@
+Repository: psf/requests
+Source: HISTORY.md at 0e322af87745eff34caffe4df68456ebc20d9068
+Release: 2.27.1 (2022-01-05)
+
+- Fixed parsing issue that resulted in the `auth` component being
+  dropped from proxy URLs. (#6028)

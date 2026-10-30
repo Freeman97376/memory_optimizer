@@ -1,0 +1,6 @@
+Repository: psf/requests
+Source: HISTORY.md at 0e322af87745eff34caffe4df68456ebc20d9068
+Release: 2.26.0 (2021-07-13)
+
+- Fixed a race condition in zip extraction when using Requests in parallel
+  from zip archive. (#5707)

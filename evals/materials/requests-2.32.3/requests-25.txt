@@ -1,0 +1,6 @@
+Repository: psf/requests
+Source: HISTORY.md at 0e322af87745eff34caffe4df68456ebc20d9068
+Release: 2.27.0 (2022-01-03)
+
+- Fixed regression in Requests 2.26.0 where `Proxy-Authorization` was
+  incorrectly stripped from all requests sent with `Session.send`. (#5924)

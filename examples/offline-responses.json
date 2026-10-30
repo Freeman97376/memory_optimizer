@@ -1,0 +1,44 @@
+{
+  "source_payload_hash": "5d07961d9033aa491e893e8890ef4ef031cffd1fc1b088d7b88c1ecc1cf53fd1",
+  "windows": [
+    {
+      "ordinal": 0,
+      "replies": [
+        {
+          "status": "complete",
+          "content": "{\"schema_version\": \"episode-candidates-v1\", \"episodes\": [{\"problem\": {\"text\": \"duplicate writes\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 23, \"end\": 39, \"quote\": \"duplicate writes\"}]}, \"conditions\": [], \"objects\": [{\"name\": {\"text\": \"cache.py\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 7, \"end\": 15, \"quote\": \"cache.py\"}]}, \"kind\": \"file\", \"qualifiers\": [{\"text\": \"repo-A\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 0, \"end\": 6, \"quote\": \"repo-A\"}]}]}], \"attempts\": [{\"action\": {\"text\": \"changed cache.py to add a lock\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 12, \"end\": 42, \"quote\": \"changed cache.py to add a lock\"}]}, \"kind\": \"reported_change\", \"event_time\": {\"text\": \"Yesterday\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 0, \"end\": 9, \"quote\": \"Yesterday\"}]}, \"before\": null, \"after\": null, \"object_refs\": [0], \"observations\": [{\"content\": {\"text\": \"Tests passed\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 44, \"end\": 56, \"quote\": \"Tests passed\"}]}, \"kind\": \"verification\", \"event_time\": null, \"corrects_attempt\": null}]}]}]}"
+        },
+        {
+          "status": "complete",
+          "content": "{\"schema_version\": \"episode-candidates-v1\", \"episodes\": [{\"problem\": {\"text\": \"duplicate writes\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 23, \"end\": 39, \"quote\": \"duplicate writes\"}]}, \"conditions\": [], \"objects\": [{\"name\": {\"text\": \"cache.py\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 7, \"end\": 15, \"quote\": \"cache.py\"}]}, \"kind\": \"file\", \"qualifiers\": [{\"text\": \"repo-A\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 0, \"end\": 6, \"quote\": \"repo-A\"}]}]}], \"attempts\": [{\"action\": {\"text\": \"changed cache.py to add a lock\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 12, \"end\": 42, \"quote\": \"changed cache.py to add a lock\"}]}, \"kind\": \"reported_change\", \"event_time\": {\"text\": \"Yesterday\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 0, \"end\": 9, \"quote\": \"Yesterday\"}]}, \"before\": null, \"after\": null, \"object_refs\": [0], \"observations\": [{\"content\": {\"text\": \"Tests passed\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 44, \"end\": 56, \"quote\": \"Tests passed\"}]}, \"kind\": \"verification\", \"event_time\": null, \"corrects_attempt\": null}]}]}]}"
+        }
+      ]
+    },
+    {
+      "ordinal": 1,
+      "replies": [
+        {
+          "status": "complete",
+          "content": "{\"schema_version\": \"episode-candidates-v1\", \"episodes\": [{\"problem\": {\"text\": \"duplicate writes\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 23, \"end\": 39, \"quote\": \"duplicate writes\"}]}, \"conditions\": [], \"objects\": [{\"name\": {\"text\": \"cache.py\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 7, \"end\": 15, \"quote\": \"cache.py\"}]}, \"kind\": \"file\", \"qualifiers\": [{\"text\": \"repo-A\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 0, \"end\": 6, \"quote\": \"repo-A\"}]}]}], \"attempts\": [{\"action\": {\"text\": \"changed cache.py to add a lock\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 12, \"end\": 42, \"quote\": \"changed cache.py to add a lock\"}]}, \"kind\": \"reported_change\", \"event_time\": {\"text\": \"Yesterday\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 0, \"end\": 9, \"quote\": \"Yesterday\"}]}, \"before\": null, \"after\": null, \"object_refs\": [0], \"observations\": [{\"content\": {\"text\": \"Tests passed\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 44, \"end\": 56, \"quote\": \"Tests passed\"}]}, \"kind\": \"verification\", \"event_time\": null, \"corrects_attempt\": null}]}]}]}"
+        },
+        {
+          "status": "complete",
+          "content": "{\"schema_version\": \"episode-candidates-v1\", \"episodes\": [{\"problem\": {\"text\": \"duplicate writes\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 23, \"end\": 39, \"quote\": \"duplicate writes\"}]}, \"conditions\": [], \"objects\": [{\"name\": {\"text\": \"cache.py\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 7, \"end\": 15, \"quote\": \"cache.py\"}]}, \"kind\": \"file\", \"qualifiers\": [{\"text\": \"repo-A\", \"evidence\": [{\"message_ordinal\": 0, \"start\": 0, \"end\": 6, \"quote\": \"repo-A\"}]}]}], \"attempts\": [{\"action\": {\"text\": \"changed cache.py to add a lock\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 12, \"end\": 42, \"quote\": \"changed cache.py to add a lock\"}]}, \"kind\": \"reported_change\", \"event_time\": {\"text\": \"Yesterday\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 0, \"end\": 9, \"quote\": \"Yesterday\"}]}, \"before\": null, \"after\": null, \"object_refs\": [0], \"observations\": [{\"content\": {\"text\": \"Tests passed\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 44, \"end\": 56, \"quote\": \"Tests passed\"}]}, \"kind\": \"verification\", \"event_time\": null, \"corrects_attempt\": null}]}]}]}"
+        }
+      ]
+    },
+    {
+      "ordinal": 2,
+      "replies": [
+        {
+          "status": "complete",
+          "content": "{\"schema_version\": \"episode-candidates-v1\", \"episodes\": [{\"problem\": null, \"conditions\": [{\"text\": \"under concurrency\", \"evidence\": [{\"message_ordinal\": 2, \"start\": 16, \"end\": 33, \"quote\": \"under concurrency\"}]}], \"objects\": [{\"name\": {\"text\": \"cache.py\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 20, \"end\": 28, \"quote\": \"cache.py\"}]}, \"kind\": \"file\", \"qualifiers\": []}], \"attempts\": [{\"action\": {\"text\": \"changed cache.py to add a lock\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 12, \"end\": 42, \"quote\": \"changed cache.py to add a lock\"}]}, \"kind\": \"reported_change\", \"event_time\": {\"text\": \"Yesterday\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 0, \"end\": 9, \"quote\": \"Yesterday\"}]}, \"before\": null, \"after\": null, \"object_refs\": [0], \"observations\": [{\"content\": {\"text\": \"The lock failed under concurrency\", \"evidence\": [{\"message_ordinal\": 2, \"start\": 0, \"end\": 33, \"quote\": \"The lock failed under concurrency\"}]}, \"kind\": \"result\", \"event_time\": null, \"corrects_attempt\": null}, {\"content\": {\"text\": \"The lock failed under concurrency\", \"evidence\": [{\"message_ordinal\": 2, \"start\": 0, \"end\": 33, \"quote\": \"The lock failed under concurrency\"}]}, \"kind\": \"correction\", \"event_time\": null, \"corrects_attempt\": 0}]}, {\"action\": {\"text\": \"rollback on main\", \"evidence\": [{\"message_ordinal\": 2, \"start\": 35, \"end\": 51, \"quote\": \"rollback on main\"}]}, \"kind\": \"rollback\", \"event_time\": null, \"before\": null, \"after\": null, \"object_refs\": [0], \"observations\": []}]}]}"
+        },
+        {
+          "status": "complete",
+          "content": "{\"schema_version\": \"episode-candidates-v1\", \"episodes\": [{\"problem\": null, \"conditions\": [{\"text\": \"under concurrency\", \"evidence\": [{\"message_ordinal\": 2, \"start\": 16, \"end\": 33, \"quote\": \"under concurrency\"}]}], \"objects\": [{\"name\": {\"text\": \"cache.py\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 20, \"end\": 28, \"quote\": \"cache.py\"}]}, \"kind\": \"file\", \"qualifiers\": []}], \"attempts\": [{\"action\": {\"text\": \"changed cache.py to add a lock\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 12, \"end\": 42, \"quote\": \"changed cache.py to add a lock\"}]}, \"kind\": \"reported_change\", \"event_time\": {\"text\": \"Yesterday\", \"evidence\": [{\"message_ordinal\": 1, \"start\": 0, \"end\": 9, \"quote\": \"Yesterday\"}]}, \"before\": null, \"after\": null, \"object_refs\": [0], \"observations\": [{\"content\": {\"text\": \"The lock failed under concurrency\", \"evidence\": [{\"message_ordinal\": 2, \"start\": 0, \"end\": 33, \"quote\": \"The lock failed under concurrency\"}]}, \"kind\": \"result\", \"event_time\": null, \"corrects_attempt\": null}, {\"content\": {\"text\": \"The lock failed under concurrency\", \"evidence\": [{\"message_ordinal\": 2, \"start\": 0, \"end\": 33, \"quote\": \"The lock failed under concurrency\"}]}, \"kind\": \"correction\", \"event_time\": null, \"corrects_attempt\": 0}]}, {\"action\": {\"text\": \"rollback on main\", \"evidence\": [{\"message_ordinal\": 2, \"start\": 35, \"end\": 51, \"quote\": \"rollback on main\"}]}, \"kind\": \"rollback\", \"event_time\": null, \"before\": null, \"after\": null, \"object_refs\": [0], \"observations\": []}]}]}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source_payload_hash": "975d278fb3739bd21ddd8b85bb901a3243924421b91c58454070b6c4479f061b",
+  "windows": [
+    {
+      "ordinal": 0,
+      "replies": [
+        {
+          "status": "complete",
+          "content": "{\"episodes\":[{\"candidate\":{\"attempts\":[{\"action\":{\"evidence\":[{\"end\":55,\"message_ordinal\":0,\"quote\":\"added lock\",\"start\":45}],\"text\":\"added lock\"},\"after\":null,\"before\":null,\"event_time\":null,\"kind\":\"reported_change\",\"object_refs\":[0],\"observations\":[{\"content\":{\"evidence\":[{\"end\":91,\"message_ordinal\":0,\"quote\":\"single-thread passed\",\"start\":71}],\"text\":\"single-thread passed\"},\"corrects_attempt\":null,\"event_time\":null,\"kind\":\"verification\"}]}],\"conditions\":[],\"objects\":[{\"kind\":\"file\",\"name\":{\"evidence\":[{\"end\":43,\"message_ordinal\":0,\"quote\":\"cache.py\",\"start\":35}],\"text\":\"cache.py\"},\"qualifiers\":[]}],\"problem\":{\"evidence\":[{\"end\":25,\"message_ordinal\":0,\"quote\":\"duplicate writes\",\"start\":9}],\"text\":\"duplicate writes\"}},\"time_proposals\":[]}],\"schema_version\":\"episode-temporal-v1\"}"
+        },
+        {
+          "status": "complete",
+          "content": "{\"episodes\":[{\"candidate\":{\"attempts\":[{\"action\":{\"evidence\":[{\"end\":55,\"message_ordinal\":0,\"quote\":\"added lock\",\"start\":45}],\"text\":\"added lock\"},\"after\":null,\"before\":null,\"event_time\":null,\"kind\":\"reported_change\",\"object_refs\":[0],\"observations\":[{\"content\":{\"evidence\":[{\"end\":91,\"message_ordinal\":0,\"quote\":\"single-thread passed\",\"start\":71}],\"text\":\"single-thread passed\"},\"corrects_attempt\":null,\"event_time\":null,\"kind\":\"verification\"}]}],\"conditions\":[],\"objects\":[{\"kind\":\"file\",\"name\":{\"evidence\":[{\"end\":43,\"message_ordinal\":0,\"quote\":\"cache.py\",\"start\":35}],\"text\":\"cache.py\"},\"qualifiers\":[]}],\"problem\":{\"evidence\":[{\"end\":25,\"message_ordinal\":0,\"quote\":\"duplicate writes\",\"start\":9}],\"text\":\"duplicate writes\"}},\"time_proposals\":[]}],\"schema_version\":\"episode-temporal-v1\"}"
+        }
+      ]
+    },
+    {
+      "ordinal": 1,
+      "replies": [
+        {
+          "status": "complete",
+          "content": "{\"episodes\":[{\"candidate\":{\"attempts\":[{\"action\":{\"evidence\":[{\"end\":112,\"message_ordinal\":1,\"quote\":\"lock still produces duplicates\",\"start\":82}],\"text\":\"lock still produces duplicates\"},\"after\":null,\"before\":null,\"event_time\":null,\"kind\":\"reported_change\",\"object_refs\":[0],\"observations\":[{\"content\":{\"evidence\":[{\"end\":130,\"message_ordinal\":1,\"quote\":\"duplicates under concurrency\",\"start\":102}],\"text\":\"duplicates under concurrency\"},\"corrects_attempt\":null,\"event_time\":null,\"kind\":\"correction\"}]}],\"conditions\":[],\"objects\":[{\"kind\":\"file\",\"name\":{\"evidence\":[{\"end\":80,\"message_ordinal\":1,\"quote\":\"cache.py\",\"start\":72}],\"text\":\"cache.py\"},\"qualifiers\":[]}],\"problem\":{\"evidence\":[{\"end\":62,\"message_ordinal\":1,\"quote\":\"concurrency failure\",\"start\":43}],\"text\":\"concurrency failure\"}},\"time_proposals\":[]}],\"schema_version\":\"episode-temporal-v1\"}"
+        },
+        {
+          "status": "complete",
+          "content": "{\"episodes\":[{\"candidate\":{\"attempts\":[{\"action\":{\"evidence\":[{\"end\":112,\"message_ordinal\":1,\"quote\":\"lock still produces duplicates\",\"start\":82}],\"text\":\"lock still produces duplicates\"},\"after\":null,\"before\":null,\"event_time\":null,\"kind\":\"reported_change\",\"object_refs\":[0],\"observations\":[{\"content\":{\"evidence\":[{\"end\":130,\"message_ordinal\":1,\"quote\":\"duplicates under concurrency\",\"start\":102}],\"text\":\"duplicates under concurrency\"},\"corrects_attempt\":null,\"event_time\":null,\"kind\":\"correction\"}]}],\"conditions\":[],\"objects\":[{\"kind\":\"file\",\"name\":{\"evidence\":[{\"end\":80,\"message_ordinal\":1,\"quote\":\"cache.py\",\"start\":72}],\"text\":\"cache.py\"},\"qualifiers\":[]}],\"problem\":{\"evidence\":[{\"end\":62,\"message_ordinal\":1,\"quote\":\"concurrency failure\",\"start\":43}],\"text\":\"concurrency failure\"}},\"time_proposals\":[]}],\"schema_version\":\"episode-temporal-v1\"}"
+        }
+      ]
+    }
+  ]
+}

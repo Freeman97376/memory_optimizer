@@ -1,0 +1,20 @@
+name: memory_optimizer
+services:
+  postgres:
+    image: postgres:17-alpine@sha256:eee6c6e1b0894fa4fe0075eb054af9fd1cf39a35321c2d4110626cfe506411fb
+    environment:
+      POSTGRES_USER: memory_optimizer
+      POSTGRES_DB: memory_optimizer
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run scripts/Initialize-Local.ps1 first}
+    ports:
+      - "127.0.0.1:55433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U memory_optimizer -d memory_optimizer"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+    restart: "no"
+volumes:
+  postgres_data:

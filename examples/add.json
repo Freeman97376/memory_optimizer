@@ -1,0 +1,16 @@
+{
+  "request_id": "demo-add-001",
+  "user_id": "demo-project",
+  "session_id": "demo-session",
+  "messages": [
+    {
+      "role": "user",
+      "content": "src/cache.py 中的 CacheClient 需要保留 retry_budget。\n不要在写入时删除原始消息。",
+      "timestamp": 1792627200000
+    },
+    {
+      "role": "assistant",
+      "content": "建议先保存 retry_budget 的来源，再验证修改；这里还没有运行测试。"
+    }
+  ]
+}

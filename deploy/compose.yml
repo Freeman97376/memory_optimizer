@@ -1,0 +1,58 @@
+name: memory-optimizer-amc
+x-app: &app
+  image: memory-optimizer:preflight
+  build:
+    context: ..
+    dockerfile: deploy/Dockerfile
+  environment:
+    MEMORY_DATABASE_URL: ${MEMORY_DATABASE_URL:?Set the dedicated database URL}
+    MEMORY_DATABASE_SCHEMA: amc_preflight_20261029
+    MEMORY_API_KEY: ${MEMORY_API_KEY:?Set an independent inbound API key}
+    OPENAI_API_KEY: ${OPENAI_API_KEY:?Set the authorized official API key}
+  read_only: true
+  tmpfs:
+    - /tmp:size=16m,mode=1777
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  pids_limit: 128
+  mem_limit: 512m
+  cpus: 1.0
+services:
+  postgres:
+    image: postgres:17-alpine@sha256:eee6c6e1b0894fa4fe0075eb054af9fd1cf39a35321c2d4110626cfe506411fb
+    environment:
+      POSTGRES_USER: memory_optimizer
+      POSTGRES_DB: memory_optimizer
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set a separate database password}
+    volumes:
+      - amc_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U memory_optimizer -d memory_optimizer]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+    mem_limit: 768m
+    cpus: 1.0
+  migrate:
+    <<: *app
+    command: [migrate]
+    profiles: [maintenance]
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: 'no'
+  api:
+    <<: *app
+    ports: ['127.0.0.1:58001:8000']
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+volumes:
+  amc_postgres:

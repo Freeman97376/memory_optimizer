@@ -1,0 +1,6 @@
+Repository: psf/requests
+Source: HISTORY.md at 0e322af87745eff34caffe4df68456ebc20d9068
+Release: 2.27.0 (2022-01-03)
+
+- Improved proxy parsing for proxy URLs missing a scheme. This will address
+  recent changes to `urlparse` in Python 3.9+. (#5917)

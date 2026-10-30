@@ -1,0 +1,6 @@
+Repository: psf/requests
+Source: HISTORY.md at 0e322af87745eff34caffe4df68456ebc20d9068
+Release: 2.27.0 (2022-01-03)
+
+- Fixed urllib3 exception leak, wrapping `urllib3.exceptions.InvalidHeader` with
+  `requests.exceptions.InvalidHeader`. (#5914)

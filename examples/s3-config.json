@@ -1,0 +1,24 @@
+{
+  "planning": {
+    "limits": {
+      "focus_chars": 2000,
+      "context_chars": 0,
+      "max_windows": 32,
+      "max_scan_chars": 100000,
+      "max_context_chars": 100000,
+      "max_pool_windows": 64
+    },
+    "flow_version": "coverage-selection-v2",
+    "selector_version": "coding-coverage-v2",
+    "schema_version": "coverage-plan-v1",
+    "segmentation_version": "message-focus-v1",
+    "measurement_version": "unicode-codepoints-v1"
+  },
+  "budget": {
+    "total_seconds": 120,
+    "max_attempts": 12
+  },
+  "cleanup_seconds": 1,
+  "flow_version": "s3-offline-v1",
+  "adapter_version": "final-windows-v1"
+}

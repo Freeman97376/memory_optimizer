@@ -1,0 +1,73 @@
+{
+  "source_payload_hash": "975d278fb3739bd21ddd8b85bb901a3243924421b91c58454070b6c4479f061b",
+  "replies": [
+    {
+      "independent": [
+        "c0"
+      ],
+      "relations": [
+        {
+          "kind": "correction",
+          "link_evidence": {
+            "end": 131,
+            "member": 0,
+            "message_ordinal": 1,
+            "quote": "Correction to \"duplicate writes\": Problem: concurrency failure. Changed cache.py: lock still produces duplicates under concurrency.",
+            "start": 0
+          },
+          "source": "c1",
+          "source_evidence": {
+            "end": 112,
+            "member": 0,
+            "message_ordinal": 1,
+            "quote": "lock still produces duplicates",
+            "start": 82
+          },
+          "target": "c0",
+          "target_evidence": {
+            "end": 25,
+            "member": 0,
+            "message_ordinal": 0,
+            "quote": "duplicate writes",
+            "start": 9
+          }
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "independent": [
+        "c0"
+      ],
+      "relations": [
+        {
+          "kind": "correction",
+          "link_evidence": {
+            "end": 131,
+            "member": 0,
+            "message_ordinal": 1,
+            "quote": "Correction to \"duplicate writes\": Problem: concurrency failure. Changed cache.py: lock still produces duplicates under concurrency.",
+            "start": 0
+          },
+          "source": "c1",
+          "source_evidence": {
+            "end": 112,
+            "member": 0,
+            "message_ordinal": 1,
+            "quote": "lock still produces duplicates",
+            "start": 82
+          },
+          "target": "c0",
+          "target_evidence": {
+            "end": 25,
+            "member": 0,
+            "message_ordinal": 0,
+            "quote": "duplicate writes",
+            "start": 9
+          }
+        }
+      ],
+      "unresolved": []
+    }
+  ]
+}

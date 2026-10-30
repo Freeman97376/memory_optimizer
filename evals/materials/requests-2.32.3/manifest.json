@@ -1,0 +1,576 @@
+{
+  "schema_version": "public-coding-diagnostic-v1",
+  "material_role": "30 real release-note excerpts from one public project; not coding conversations or official benchmark",
+  "frozen_before_provider_run": true,
+  "independent_material_count": 1,
+  "cases": [
+    {
+      "id": "requests-01",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-01.txt",
+      "sha256": "e1652af4c9c777031ea1756af36f4f1a16c222aa87bfdcb20af1b98a01c1346d",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.32.3 (2024-05-29)",
+      "license": "Apache-2.0",
+      "query": "SSLContexts",
+      "required_quotes": [
+        "custom SSLContexts",
+        "HTTPAdapter"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-02",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-02.txt",
+      "sha256": "95a9d883d91179ceffebca0fdecb2ae63b39f68f755d99d46299f6fbad5a9579",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.32.3 (2024-05-29)",
+      "license": "Apache-2.0",
+      "query": "ssl",
+      "required_quotes": [
+        "without the `ssl` module"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-03",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-03.txt",
+      "sha256": "37846950532db7fe515b6d20d7a068dcd872e64e7030d3ea6c98644a01b03d81",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.32.0 (2024-05-20)",
+      "license": "Apache-2.0",
+      "query": "verify=False",
+      "required_quotes": [
+        "verify=False",
+        "regardless of the value"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-04",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-04.txt",
+      "sha256": "2dea2af5ecb2ca7c72a3b0292259babd5b35b705bab3cda91b9bb301a9b6aa33",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.32.0 (2024-05-20)",
+      "license": "Apache-2.0",
+      "query": "apparent_encoding",
+      "required_quotes": [
+        "apparent_encoding",
+        "utf-8"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-05",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-05.txt",
+      "sha256": "0b9b9c2d3f7f256540caa2f1fe7ffce00eeb7d41a2d77021f6a1f150dce25d00",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.32.0 (2024-05-20)",
+      "license": "Apache-2.0",
+      "query": "emoji",
+      "required_quotes": [
+        "emoji length",
+        "content-length"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-06",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-06.txt",
+      "sha256": "12da2fcd1632d12657c087c9d0acd20e91bae41a088f25ad90fa8d0bd70a8b80",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.32.0 (2024-05-20)",
+      "license": "Apache-2.0",
+      "query": "deserialization",
+      "required_quotes": [
+        "deserialization bug",
+        "JSONDecodeError"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-07",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-07.txt",
+      "sha256": "069a6f2b08a759cb5bccb133c6eac70f1135eaf11ba6617ea160be4fdb37bc0d",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.32.0 (2024-05-20)",
+      "license": "Apache-2.0",
+      "query": "URI",
+      "required_quotes": [
+        "extra leading",
+        "reparse the request URI"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-08",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-08.txt",
+      "sha256": "af2599a399b5adf6fbe28f15c623209247764663ac7896845ac673da45e865d2",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.29.0 (2023-04-26)",
+      "license": "Apache-2.0",
+      "query": "chunked",
+      "required_quotes": [
+        "chunked requests",
+        "urllib3 implementation"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-09",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-09.txt",
+      "sha256": "023513c8245ff3651b0ee11c127e06a07142b74abb32c51f9fc727f27e7808bc",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.28.2 (2023-01-12)",
+      "license": "Apache-2.0",
+      "query": "charset_normalizer",
+      "required_quotes": [
+        "charset\\_normalizer 3.x"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-10",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-10.txt",
+      "sha256": "63aa9bc747eaa0b9c64d1c7d86ac18c80233436a315e320c8d57638a13a5c7b3",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.28.2 (2023-01-12)",
+      "license": "Apache-2.0",
+      "query": "MissingSchema",
+      "required_quotes": [
+        "MissingSchema",
+        "https scheme rather than http"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-11",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-11.txt",
+      "sha256": "58c437245e8bca4cdf7cb9598b18eb35c3d92d5a521b269a4f130e5285b7e180",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.28.1 (2022-06-29)",
+      "license": "Apache-2.0",
+      "query": "iter_content",
+      "required_quotes": [
+        "iter_content",
+        "yield from"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-12",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-12.txt",
+      "sha256": "1d5018acf86067c85d219cff132617e1b6bcea8fa0ced8ab8f5df135dfbdcf9f",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.28.0 (2022-06-09)",
+      "license": "Apache-2.0",
+      "query": "JSON parsing",
+      "required_quotes": [
+        "JSONDecodeError",
+        "an encoding"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-13",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-13.txt",
+      "sha256": "eed56cf99b45b064538f95e4415a01002bd965a02ed68c8ba8533e127075ece0",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.28.0 (2022-06-09)",
+      "license": "Apache-2.0",
+      "query": "InvalidHeader",
+      "required_quotes": [
+        "InvalidHeader error",
+        "all invalid cases"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-14",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-14.txt",
+      "sha256": "cc6e47fef0646717c7d4a0878d33f7801743f6effd5c4a72bae3af48d4f54a22",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.28.0 (2022-06-09)",
+      "license": "Apache-2.0",
+      "query": "CURL_CA_BUNDLE",
+      "required_quotes": [
+        "CURL_CA_BUNDLE",
+        "before 2.28.0"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-15",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-15.txt",
+      "sha256": "d083770e6ef23dcb0f5c7ad9ea74cef3acfcd453b48d1d3b8b8e2a483f0a27f8",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.28.0 (2022-06-09)",
+      "license": "Apache-2.0",
+      "query": "SSLError",
+      "required_quotes": [
+        "urllib3.exceptions.SSLError",
+        "requests.exceptions.SSLError"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-16",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-16.txt",
+      "sha256": "8ca35ad3806d57170b3fba2cfae2a081657f77aace0a58079baeb7e9f18a8992",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.28.0 (2022-06-09)",
+      "license": "Apache-2.0",
+      "query": "Windows registry",
+      "required_quotes": [
+        "Windows registry",
+        "ignoring the entry"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-17",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-17.txt",
+      "sha256": "cad5c2b49538bcb5f890af7704abd87af116d75ddd12c872fa26a06697ca5ad6",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.28.0 (2022-06-09)",
+      "license": "Apache-2.0",
+      "query": "entire payload",
+      "required_quotes": [
+        "entire payload",
+        "JSONDecodeError"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-18",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-18.txt",
+      "sha256": "3c5f0645d96a604e7f8ac7408d832b908b64efd54f44c406426694ff555c8bd8",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.27.1 (2022-01-05)",
+      "license": "Apache-2.0",
+      "query": "auth",
+      "required_quotes": [
+        "`auth` component",
+        "dropped from proxy URLs"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-19",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-19.txt",
+      "sha256": "c325b3d8e44aaaf3e1d8bfe02ccb86058ea7bd574e374c067d87affaad5bb83a",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.27.0 (2022-01-03)",
+      "license": "Apache-2.0",
+      "query": "InvalidSchema",
+      "required_quotes": [
+        "InvalidSchema",
+        "temporary fix"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-20",
+      "split": "diagnostic",
+      "project": "psf-requests",
+      "source_file": "requests-20.txt",
+      "sha256": "1af7d702f30a489578d42b1b0e23701cebd8a769c4a70b0fd84180ebc64c88b2",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.27.0 (2022-01-03)",
+      "license": "Apache-2.0",
+      "query": "urlparse",
+      "required_quotes": [
+        "proxy URLs missing a scheme",
+        "Python 3.9+"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-21",
+      "split": "heldout",
+      "project": "psf-requests",
+      "source_file": "requests-21.txt",
+      "sha256": "8a03d3bc119dd45359b08bf746e5227cf9c36ac645caca6a19e43422716744fd",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.27.0 (2022-01-03)",
+      "license": "Apache-2.0",
+      "query": "extract_zipped_paths",
+      "required_quotes": [
+        "extract_zipped_paths",
+        "infinite loop"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-22",
+      "split": "heldout",
+      "project": "psf-requests",
+      "source_file": "requests-22.txt",
+      "sha256": "e42c52b1b9d115054739c620b700d30258838cb6cb6f71dfed3c199579d49414",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.27.0 (2022-01-03)",
+      "license": "Apache-2.0",
+      "query": "Tarfile.extractfile",
+      "required_quotes": [
+        "AttributeError",
+        "Tarfile.extractfile"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-23",
+      "split": "heldout",
+      "project": "psf-requests",
+      "source_file": "requests-23.txt",
+      "sha256": "124406004e81323314b7c37d6c508bc62d7f215ba00ac1cd09f34f963d0674e1",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.27.0 (2022-01-03)",
+      "license": "Apache-2.0",
+      "query": "InvalidHeader",
+      "required_quotes": [
+        "urllib3.exceptions.InvalidHeader",
+        "requests.exceptions.InvalidHeader"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-24",
+      "split": "heldout",
+      "project": "psf-requests",
+      "source_file": "requests-24.txt",
+      "sha256": "e8142951d06eff4b156ef2d32f74844894a37b584b121e9c3ce4c122c475c952",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.27.0 (2022-01-03)",
+      "license": "Apache-2.0",
+      "query": "Host headers",
+      "required_quotes": [
+        "two Host headers",
+        "chunked requests"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-25",
+      "split": "heldout",
+      "project": "psf-requests",
+      "source_file": "requests-25.txt",
+      "sha256": "82a69f1cced5019107b1455709ee397ef5a29664ebc35cff782b17c805559229",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.27.0 (2022-01-03)",
+      "license": "Apache-2.0",
+      "query": "Proxy-Authorization",
+      "required_quotes": [
+        "Proxy-Authorization",
+        "Session.send"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-26",
+      "split": "heldout",
+      "project": "psf-requests",
+      "source_file": "requests-26.txt",
+      "sha256": "2e5a6b57d843cc12cd6ffad82914cde2036e71c40aa2b4f6415ca37d502ba7c4",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.27.0 (2022-01-03)",
+      "license": "Apache-2.0",
+      "query": "performance regression",
+      "required_quotes": [
+        "performance regression in 2.26.0",
+        "proxies available"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-27",
+      "split": "heldout",
+      "project": "psf-requests",
+      "source_file": "requests-27.txt",
+      "sha256": "3fad85b2630a1d5bc1fc5483d598d7437858a28e338896d1f6980b0418090fe1",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.27.0 (2022-01-03)",
+      "license": "Apache-2.0",
+      "query": "UnicodeError",
+      "required_quotes": [
+        "UnicodeError",
+        "leading dot"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-28",
+      "split": "heldout",
+      "project": "psf-requests",
+      "source_file": "requests-28.txt",
+      "sha256": "9ef63f66fdc723eccd1310057be737fb941dba1b2b03fcf73cc4ea15c3df7a2b",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.26.0 (2021-07-13)",
+      "license": "Apache-2.0",
+      "query": "Brotli",
+      "required_quotes": [
+        "Brotli compression",
+        "brotlicffi"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-29",
+      "split": "heldout",
+      "project": "psf-requests",
+      "source_file": "requests-29.txt",
+      "sha256": "68f2c43719c8abc1a1f60cfe1288b5a87e45f9e8221e2c3fa90c3d0ae4efa784",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.26.0 (2021-07-13)",
+      "license": "Apache-2.0",
+      "query": "race condition",
+      "required_quotes": [
+        "race condition",
+        "zip archive"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    },
+    {
+      "id": "requests-30",
+      "split": "heldout",
+      "project": "psf-requests",
+      "source_file": "requests-30.txt",
+      "sha256": "858d268f39a708ae60996149d8ab86a97d47c5e33fc3f14b4ac0d9c99f1f6d8c",
+      "source_url": "https://github.com/psf/requests/blob/0e322af87745eff34caffe4df68456ebc20d9068/HISTORY.md",
+      "original_blob_sha": "e51a7ee2c231c6f1ed0adcd16c198e6a412a9c75",
+      "revision": "2.26.0 (2021-07-13)",
+      "license": "Apache-2.0",
+      "query": "idna",
+      "required_quotes": [
+        "idna` 3.x",
+        "Python 2 installations"
+      ],
+      "top_k": 1,
+      "oracle_status": "derived-literal-evidence",
+      "transformation": "verbatim complete release bullet with repository, revision and source header"
+    }
+  ]
+}

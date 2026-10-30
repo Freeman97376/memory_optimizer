@@ -1,0 +1,12 @@
+# Build input allowlist: never send credentials, raw reports, Office records or local data.
+*
+!pyproject.toml
+!uv.lock
+!README.md
+!src/
+!src/**
+!deploy/
+!deploy/Dockerfile
+**/__pycache__/
+**/*.pyc
+!LICENSE

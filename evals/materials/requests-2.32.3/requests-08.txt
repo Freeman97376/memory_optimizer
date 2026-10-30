@@ -1,0 +1,6 @@
+Repository: psf/requests
+Source: HISTORY.md at 0e322af87745eff34caffe4df68456ebc20d9068
+Release: 2.29.0 (2023-04-26)
+
+- Requests now defers chunked requests to the urllib3 implementation to improve
+  standardization. (#6226)
